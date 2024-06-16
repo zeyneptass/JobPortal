@@ -17,3 +17,4 @@ C:\Users\zeyne\OneDrive\Masaüstü\csharp\JobPortal\Business\obj\Debug\net8.0\Bu
 C:\Users\zeyne\OneDrive\Masaüstü\csharp\JobPortal\Business\obj\Debug\net8.0\refint\Business.dll
 C:\Users\zeyne\OneDrive\Masaüstü\csharp\JobPortal\Business\obj\Debug\net8.0\Business.pdb
 C:\Users\zeyne\OneDrive\Masaüstü\csharp\JobPortal\Business\obj\Debug\net8.0\ref\Business.dll
+C:\Users\zeyne\OneDrive\Masaüstü\csharp\JobPortal\Business\obj\Debug\net8.0\Business.sourcelink.json

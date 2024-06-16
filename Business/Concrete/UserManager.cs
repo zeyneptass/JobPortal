@@ -1,4 +1,7 @@
 ﻿using Business.Abstract;
+using Business.Constants;
+using Core.Utilities.Results.Abstract;
+using Core.Utilities.Results.Concrete;
 using DataAccess.Abstract;
 using Entities.Concrete;
 using Entities.DTOs;
@@ -19,33 +22,44 @@ namespace Business.Concrete
             _userDal = userDal;
         }
 
-        public void Add(User user)
+        public IResult Add(User user)
         {
-            // business codes
-            // işlemin başarılı olup olmadığını döndürüp ve son kullanıcıya işlem ile ilgili bilgilendirme yapmak isteriz.
-            _userDal.Add(user);
+            if (user.Password.Length<8)
+            {
+                return new ErrorResult(Messages.UserInvalid);
+            }
+            else
+            {
+                _userDal.Add(user);
+                return new SuccessResult(Messages.UserAdded);
+            }
         }
 
-        public List<User> GetAll()
+        public IDataResult<List<User>> GetAll()
         {
             // Bir methodda sadece bir değer dödürülür burada List değer döndürmüş
             // Aynı anda birden fazla değer döndürmek istersek encapsulation'dan faydalanmalıyız.
-            return _userDal.GelAll();
+
+            if(DateTime.Now.Hour == 22)
+            {
+                return new ErrorDataResult<List<User>>(Messages.MaintenanceTime);
+            }
+            return new SuccessDataResult<List<User>>(_userDal.GelAll(),Messages.UsersListed);
         }
 
-        public List<User> GetAllByRole(int roleId)
+        public IDataResult<List<User>> GetAllByRole(int roleId)
         {
-            return _userDal.GelAll(u => u.RoleId == roleId);
+            return new SuccessDataResult<List<User>>(_userDal.GelAll(u => u.RoleId == roleId));
         }
 
-        public User GetById(int userId)
+        public IDataResult<User> GetById(int userId)
         {
-            return _userDal.Get(p =>p.UserId == userId);
+            return new SuccessDataResult<User>(_userDal.Get(p => p.UserId == userId));
         }
 
-        public List<UserDetailDto> GetUserDetails()
+        public IDataResult<List<UserDetailDto>> GetUserDetails()
         {
-            return _userDal.GetUserDetails();
+            return new SuccessDataResult<List<UserDetailDto>>(_userDal.GetUserDetails());
         }
     }
 }

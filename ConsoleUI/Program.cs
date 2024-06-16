@@ -4,18 +4,26 @@
 using Business.Concrete;
 using DataAccess.Concrete.EntityFramework;
 
-//GetUserEmails();
+GetUserEmails();
 //GetRoles();
 
-DtoTest();
+//DtoTest();
 
 static void GetUserEmails()
 {
     UserManager userManager = new(new EfUserDal());
-    foreach (var user in userManager.GetAll())
+    var result = userManager.GetUserDetails();
+    if (result.Success)
     {
-        Console.WriteLine(user.Email);
+        foreach (var user in result.Data)
+        {
+            Console.WriteLine(user.UserId + "/" + user.Email + "/" + user.UserRole);
+        }
+    }else
+    {
+        Console.WriteLine(result.Message);
     }
+    
 }
 
 static void GetRoles()
@@ -30,7 +38,7 @@ static void GetRoles()
 static void DtoTest()
 {
     UserManager userManager = new(new EfUserDal());
-    foreach (var user in userManager.GetUserDetails())
+    foreach (var user in userManager.GetUserDetails().Data)
     {
         Console.WriteLine(user.UserId + "/" + user.Email + "/" + user.UserRole);
     }

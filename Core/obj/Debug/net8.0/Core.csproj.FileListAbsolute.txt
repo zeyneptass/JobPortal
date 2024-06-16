@@ -10,3 +10,4 @@ C:\Users\zeyne\OneDrive\Masaüstü\csharp\JobPortal\Core\obj\Debug\net8.0\refint
 C:\Users\zeyne\OneDrive\Masaüstü\csharp\JobPortal\Core\obj\Debug\net8.0\Core.pdb
 C:\Users\zeyne\OneDrive\Masaüstü\csharp\JobPortal\Core\obj\Debug\net8.0\ref\Core.dll
 C:\Users\zeyne\OneDrive\Masaüstü\csharp\JobPortal\Core\obj\Debug\net8.0\Core.csproj.AssemblyReference.cache
+C:\Users\zeyne\OneDrive\Masaüstü\csharp\JobPortal\Core\obj\Debug\net8.0\Core.sourcelink.json

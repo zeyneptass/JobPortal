@@ -1,4 +1,5 @@
-﻿using Entities.Concrete;
+﻿using Core.Utilities.Results.Abstract;
+using Entities.Concrete;
 using Entities.DTOs;
 using System;
 using System.Collections.Generic;
@@ -10,10 +11,10 @@ namespace Business.Abstract
 {
     public interface IUserService
     {
-        List<User> GetAll();
-        List<User> GetAllByRole(int roleId);
-        List<UserDetailDto> GetUserDetails();
-        void Add(User user);
-        User GetById(int userId);
+        IDataResult<List<User>> GetAll();
+        IDataResult<List<User>> GetAllByRole(int roleId);
+        IDataResult<List<UserDetailDto>> GetUserDetails();
+        IResult Add(User user);
+        IDataResult<User> GetById(int userId);
     }
 }
