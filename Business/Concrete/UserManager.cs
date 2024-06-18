@@ -16,12 +16,10 @@ namespace Business.Concrete
     public class UserManager : IUserService
     {
         IUserDal _userDal;
-
         public UserManager(IUserDal userDal)
         {
             _userDal = userDal;
         }
-
         public IResult Add(User user)
         {
             if (user.Password.Length<8)
@@ -34,29 +32,24 @@ namespace Business.Concrete
                 return new SuccessResult(Messages.UserAdded);
             }
         }
-
         public IDataResult<List<User>> GetAll()
         {
             // Bir methodda sadece bir değer dödürülür burada List değer döndürmüş
             // Aynı anda birden fazla değer döndürmek istersek encapsulation'dan faydalanmalıyız.
-
             if(DateTime.Now.Hour == 22)
             {
                 return new ErrorDataResult<List<User>>(Messages.MaintenanceTime);
             }
             return new SuccessDataResult<List<User>>(_userDal.GelAll(),Messages.UsersListed);
         }
-
         public IDataResult<List<User>> GetAllByRole(int roleId)
         {
             return new SuccessDataResult<List<User>>(_userDal.GelAll(u => u.RoleId == roleId));
         }
-
         public IDataResult<User> GetById(int userId)
         {
             return new SuccessDataResult<User>(_userDal.Get(p => p.UserId == userId));
         }
-
         public IDataResult<List<UserDetailDto>> GetUserDetails()
         {
             return new SuccessDataResult<List<UserDetailDto>>(_userDal.GetUserDetails());
