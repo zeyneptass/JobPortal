@@ -26,7 +26,7 @@ namespace WebAPI.Controllers
             }
             return BadRequest(result);
         }
-        [HttpPost("getrole")]
+        [HttpPost("getrolebyid")]
         public IActionResult GetRoleById(int id)
         {
             var result = _roleService.GetRoleById(id);
