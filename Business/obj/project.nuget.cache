@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+0sTQ6QQ/FsGjI9rBz0JqPL+ErUMPmu0tSlXQZa8rLcTOcYJCG0FC4avsGZWvsQ4EXLLzq5NpZezPS3b4t4A4w==",
+  "dgSpecHash": "L5IdcPJ+tkzgnpEI9YzBV4gw8DCTb6Q3jCCyRM/a8vOIplZS5n9akR7rJ6F9y+gq7KlnIPX9dmFHYXogVP/i7w==",
   "success": true,
   "projectFilePath": "C:\\Users\\zeyne\\OneDrive\\Masaüstü\\csharp\\JobPortal\\Business\\Business.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\zeyne\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\zeyne\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\zeyne\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
+    "C:\\Users\\zeyne\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512",
     "C:\\Users\\zeyne\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\zeyne\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\zeyne\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.5\\microsoft.data.sqlclient.5.1.5.nupkg.sha512",

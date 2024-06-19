@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "KCnDoMaUCh3bY/uVfXj6UHyzrQ69jfjhd8IUczX8TCq+QV1QDPX39LNABlaD4ad4Hnt5ZcHIAe2CxiVcKMwDUA==",
+  "dgSpecHash": "7zqClL8QHK5Q1juNCbou53E/0u1MNY5oS5nJGm3T9+0U20oWpbpqVmJaVA0obPaixCwBF18WL41iNGewi4D2AA==",
   "success": true,
   "projectFilePath": "C:\\Users\\zeyne\\OneDrive\\Masaüstü\\csharp\\JobPortal\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "C:\\Users\\zeyne\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\zeyne\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\zeyne\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
+    "C:\\Users\\zeyne\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512",
     "C:\\Users\\zeyne\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\zeyne\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\zeyne\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.5\\microsoft.data.sqlclient.5.1.5.nupkg.sha512",
