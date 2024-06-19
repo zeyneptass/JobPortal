@@ -1,4 +1,5 @@
-﻿using Entities.Concrete;
+﻿using Core.Utilities.Results.Abstract;
+using Entities.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +10,9 @@ namespace Business.Abstract
 {
     public interface IRoleService
     {
-        List<Role> GetRoles();
-        Role GetRoleById(int id);
+        IDataResult<List<Role>> GetRoles();
+        IDataResult<Role> GetRoleById(int roleId);
+        IDataResult<List<Role>> GetRolesByType(string roleType);
+
     }
 }

@@ -10,8 +10,7 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Concrete.EntityFramework
 {
-    public class EfRoleDal:EfEntityRepositoryBase<Role,JobPortalContext>,IRoleDal
-    {
-
+    public class EfRoleDal : EfEntityRepositoryBase<Role, JobPortalContext>, IRoleDal
+    {  
     }
 }

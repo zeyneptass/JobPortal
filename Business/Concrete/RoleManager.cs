@@ -1,4 +1,7 @@
 ﻿using Business.Abstract;
+using Business.Constants;
+using Core.Utilities.Results.Abstract;
+using Core.Utilities.Results.Concrete;
 using DataAccess.Abstract;
 using Entities.Concrete;
 using System;
@@ -18,14 +21,30 @@ namespace Business.Concrete
             _roleDal = roleDal;
         }
 
-        public Role GetRoleById(int id)
+        public IDataResult<Role> GetRoleById(int roleId)
         {
-            return _roleDal.Get(r=> r.RoleId== id);
+            var role = _roleDal.Get(r => r.RoleId == roleId);
+            if (role != null)
+            {
+                return new SuccessDataResult<Role>(role);
+            }
+            return new ErrorDataResult<Role>(Messages.RoleNotSelected);
         }
 
-        public List<Role> GetRoles()
+        public IDataResult<List<Role>> GetRoles()
         {
-            return _roleDal.GelAll();
+            return new SuccessDataResult<List<Role>>(_roleDal.GelAll());
         }
+
+        public IDataResult<List<Role>> GetRolesByType(string roleType)
+        {
+            var role = _roleDal.Get(r => r.UserRole == roleType);
+            if (role != null)
+            {
+                return new SuccessDataResult<List<Role>>(roleType);
+            }
+            return new ErrorDataResult<List<Role>>();
+        }
+
     }
 }

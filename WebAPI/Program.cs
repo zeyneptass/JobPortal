@@ -17,8 +17,8 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IUserService,UserManager>();
 builder.Services.AddScoped<IUserDal, EfUserDal>();
 
-builder.Services.AddSingleton<IRoleService, RoleManager>();
-builder.Services.AddSingleton<IRoleDal,EfRoleDal>();
+builder.Services.AddScoped<IRoleService, RoleManager>();
+builder.Services.AddScoped<IRoleDal,EfRoleDal>();
 
 builder.Services.AddSingleton<IJobTypeService, JobTypeManager>();
 builder.Services.AddSingleton<IJobTypeDal, EfJobTypeDal>();
