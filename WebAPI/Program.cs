@@ -1,5 +1,8 @@
+using Autofac;
+using Autofac.Extensions.DependencyInjection;
 using Business.Abstract;
 using Business.Concrete;
+using Business.DependencyResolvers.Autofac;
 using DataAccess.Abstract;
 using DataAccess.Concrete.EntityFramework;
 
@@ -14,30 +17,14 @@ builder.Services.AddSwaggerGen();
 
 // IoC 
 // Ýçinde data tutmuyorsak singleton kullanýrýz.
-builder.Services.AddScoped<IUserService,UserManager>();
-builder.Services.AddScoped<IUserDal, EfUserDal>();
+//builder.Services.AddScoped<IUserService,UserManager>();
+//builder.Services.AddScoped<IUserDal, EfUserDal>();
 
-builder.Services.AddScoped<IRoleService, RoleManager>();
-builder.Services.AddScoped<IRoleDal,EfRoleDal>();
-
-builder.Services.AddSingleton<IJobTypeService, JobTypeManager>();
-builder.Services.AddSingleton<IJobTypeDal, EfJobTypeDal>();
-
-builder.Services.AddSingleton<IJobSeekerService,JobSeekerManager>();
-builder.Services.AddSingleton<IJobSeekerDal, EfJobSeekerDal>();
-
-builder.Services.AddSingleton<IJobListingService,JobListingManager>();
-builder.Services.AddSingleton<IJobListingDal, EfJobListingDal>();
-
-builder.Services.AddSingleton<IEmployerService, EmployerManager>();
-builder.Services.AddSingleton<IEmployerDal,EfEmployerDal>();
-
-builder.Services.AddSingleton<IApplicationStatusService, ApplicationStatusManager>();
-builder.Services.AddSingleton<IApplicationStatusDal, EfApplicationStatusDal>();
-
-builder.Services.AddSingleton<IApplicationService, ApplicationManager>();
-builder.Services.AddSingleton<IApplicationDal, EfApplicationDal>();
-
+builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory())
+    .ConfigureContainer<ContainerBuilder>(builder =>
+    {
+        builder.RegisterModule(new AutofacBusinessModule());
+    });
 
 var app = builder.Build();
 

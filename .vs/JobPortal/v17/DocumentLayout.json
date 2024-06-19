@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C1FCB362-80CC-4C7E-883C-EBD33A1E5274}|WebAPI\\WebAPI.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\csharp\\jobportal\\webapi\\controllers\\jobtypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1FCB362-80CC-4C7E-883C-EBD33A1E5274}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\jobtypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F4A387E-8321-489D-94F0-16DFC6158669}|Business\\Business.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\csharp\\jobportal\\business\\dependencyresolvers\\autofac\\autofacbusinessmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F4A387E-8321-489D-94F0-16DFC6158669}|Business\\Business.csproj|solutionrelative:business\\dependencyresolvers\\autofac\\autofacbusinessmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1FCB362-80CC-4C7E-883C-EBD33A1E5274}|WebAPI\\WebAPI.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\csharp\\jobportal\\webapi\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1FCB362-80CC-4C7E-883C-EBD33A1E5274}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C1FCB362-80CC-4C7E-883C-EBD33A1E5274}|WebAPI\\WebAPI.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\csharp\\jobportal\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1FCB362-80CC-4C7E-883C-EBD33A1E5274}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1FCB362-80CC-4C7E-883C-EBD33A1E5274}|WebAPI\\WebAPI.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\csharp\\jobportal\\webapi\\controllers\\jobtypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1FCB362-80CC-4C7E-883C-EBD33A1E5274}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\jobtypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{98AF16FB-8531-415A-9DA7-423E6E8A40E4}|ConsoleUI\\ConsoleUI.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\csharp\\jobportal\\consoleui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98AF16FB-8531-415A-9DA7-423E6E8A40E4}|ConsoleUI\\ConsoleUI.csproj|solutionrelative:consoleui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F4A387E-8321-489D-94F0-16DFC6158669}|Business\\Business.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\csharp\\jobportal\\business\\concrete\\rolemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F4A387E-8321-489D-94F0-16DFC6158669}|Business\\Business.csproj|solutionrelative:business\\concrete\\rolemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0F4A387E-8321-489D-94F0-16DFC6158669}|Business\\Business.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\csharp\\jobportal\\business\\concrete\\jobtypemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F4A387E-8321-489D-94F0-16DFC6158669}|Business\\Business.csproj|solutionrelative:business\\concrete\\jobtypemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F4A387E-8321-489D-94F0-16DFC6158669}|Business\\Business.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\csharp\\jobportal\\business\\concrete\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F4A387E-8321-489D-94F0-16DFC6158669}|Business\\Business.csproj|solutionrelative:business\\concrete\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F4A387E-8321-489D-94F0-16DFC6158669}|Business\\Business.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\csharp\\jobportal\\business\\constants\\messages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,6 +55,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AutofacBusinessModule.cs",
+              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\Business\\DependencyResolvers\\Autofac\\AutofacBusinessModule.cs",
+              "RelativeDocumentMoniker": "Business\\DependencyResolvers\\Autofac\\AutofacBusinessModule.cs",
+              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\Business\\DependencyResolvers\\Autofac\\AutofacBusinessModule.cs",
+              "RelativeToolTip": "Business\\DependencyResolvers\\Autofac\\AutofacBusinessModule.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABUAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T12:11:17.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\WebAPI\\Program.cs",
+              "RelativeToolTip": "WebAPI\\Program.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T11:44:16.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "JobTypesController.cs",
               "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\WebAPI\\Controllers\\JobTypesController.cs",
               "RelativeDocumentMoniker": "WebAPI\\Controllers\\JobTypesController.cs",
@@ -71,32 +93,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\ConsoleUI\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleUI\\Program.cs",
               "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\ConsoleUI\\Program.cs",
               "RelativeToolTip": "ConsoleUI\\Program.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAAAB0AAAADAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAIBJwB0AAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-19T11:21:56.161Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "EfEntityRepositoryBase.cs",
               "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\Core\\DataAccess\\EntityFramework\\EfEntityRepositoryBase.cs",
               "RelativeDocumentMoniker": "Core\\DataAccess\\EntityFramework\\EfEntityRepositoryBase.cs",
               "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\Core\\DataAccess\\EntityFramework\\EfEntityRepositoryBase.cs",
               "RelativeToolTip": "Core\\DataAccess\\EntityFramework\\EfEntityRepositoryBase.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAAADQAAABSAAAA",
+              "ViewState": "AQIAACAAAAAAAAAAAIBJwDQAAABSAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T11:19:33.127Z"
+              "WhenOpened": "2024-06-19T11:19:33.127Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "IEntityRepository.cs",
               "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\Core\\DataAccess\\IEntityRepository.cs",
               "RelativeDocumentMoniker": "Core\\DataAccess\\IEntityRepository.cs",
@@ -104,11 +127,12 @@
               "RelativeToolTip": "Core\\DataAccess\\IEntityRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T11:19:00.117Z"
+              "WhenOpened": "2024-06-19T11:19:00.117Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Messages.cs",
               "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\Business\\Constants\\Messages.cs",
               "RelativeDocumentMoniker": "Business\\Constants\\Messages.cs",
@@ -116,11 +140,12 @@
               "RelativeToolTip": "Business\\Constants\\Messages.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T10:43:56.145Z"
+              "WhenOpened": "2024-06-19T10:43:56.145Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "JobType.cs",
               "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\Entities\\Concrete\\JobType.cs",
               "RelativeDocumentMoniker": "Entities\\Concrete\\JobType.cs",
@@ -128,7 +153,8 @@
               "RelativeToolTip": "Entities\\Concrete\\JobType.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T10:36:36.752Z"
+              "WhenOpened": "2024-06-19T10:36:36.752Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -138,13 +164,14 @@
               "RelativeDocumentMoniker": "Business\\Concrete\\JobTypeManager.cs",
               "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\Business\\Concrete\\JobTypeManager.cs",
               "RelativeToolTip": "Business\\Concrete\\JobTypeManager.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAAACUAAABhAAAA",
+              "ViewState": "AQIAABwAAAAAAAAAAIBQwCUAAABhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T10:36:47.578Z"
+              "WhenOpened": "2024-06-19T10:36:47.578Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "IJobTypeService.cs",
               "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\Business\\Abstract\\IJobTypeService.cs",
               "RelativeDocumentMoniker": "Business\\Abstract\\IJobTypeService.cs",
@@ -152,65 +179,7 @@
               "RelativeToolTip": "Business\\Abstract\\IJobTypeService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T10:36:46.044Z"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "979bb798-209d-4676-9c9c-76851dc41831",
-        "Display": 1,
-        "X": -5,
-        "Y": 0,
-        "Width": 1274,
-        "Height": 725,
-        "WindowState": 0
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 2,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserManager.cs",
-              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\Business\\Concrete\\UserManager.cs",
-              "RelativeDocumentMoniker": "Business\\Concrete\\UserManager.cs",
-              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\Business\\Concrete\\UserManager.cs",
-              "RelativeToolTip": "Business\\Concrete\\UserManager.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAAADEAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T10:42:00.877Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RoleManager.cs",
-              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\Business\\Concrete\\RoleManager.cs",
-              "RelativeDocumentMoniker": "Business\\Concrete\\RoleManager.cs",
-              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\Business\\Concrete\\RoleManager.cs",
-              "RelativeToolTip": "Business\\Concrete\\RoleManager.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAAC0AAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T10:41:59.023Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RolesController.cs",
-              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\WebAPI\\Controllers\\RolesController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\RolesController.cs",
-              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\WebAPI\\Controllers\\RolesController.cs",
-              "RelativeToolTip": "WebAPI\\Controllers\\RolesController.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAAABwAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T11:21:20.32Z",
+              "WhenOpened": "2024-06-19T10:36:46.044Z",
               "EditorCaption": ""
             }
           ]
