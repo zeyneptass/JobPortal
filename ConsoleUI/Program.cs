@@ -26,14 +26,14 @@ static void GetUserEmails()
     
 }
 
-static void GetRoles()
-{
-    RoleManager roleManager = new(new EfRoleDal());
-    foreach (var role in roleManager.GetRoles())
-    {
-        Console.WriteLine(role.UserRole);
-    }
-}
+//static void GetRoles()
+//{
+//    RoleManager roleManager = new(new EfRoleDal());
+//    foreach (var role in roleManager.GetRoles())
+//    {
+//        Console.WriteLine(role.UserRole);
+//    }
+//}
 
 static void DtoTest()
 {

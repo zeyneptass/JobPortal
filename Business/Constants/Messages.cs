@@ -18,5 +18,11 @@ namespace Business.Constants
 
         public static string RoleNotSelected = "Please, select a role";
 
+        public static string JobTypeAdd = "Job type is added.";
+        public static string JobTypeDeleted = "Job type is deleted.";
+        public static string JobTypeUpdated = "Job type is updated.";
+        public static string JobTypeListed = "Job types are listed.";
+
+
     }
 }

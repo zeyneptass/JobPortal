@@ -33,7 +33,7 @@ namespace Business.Concrete
 
         public IDataResult<List<Role>> GetRoles()
         {
-            return new SuccessDataResult<List<Role>>(_roleDal.GelAll());
+            return new SuccessDataResult<List<Role>>(_roleDal.GetAll());
         }
 
         public IDataResult<List<Role>> GetRolesByType(string roleType)

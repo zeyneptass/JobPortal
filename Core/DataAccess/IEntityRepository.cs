@@ -14,7 +14,7 @@ namespace Core.DataAccess
     // new() : new()'lenebilen bir nesne olabilir yani soyut olan IEntity nesnesini devre dışı bırakır
     public interface IEntityRepository<T> where T : class,IEntitiy,new()
     {
-        List<T> GelAll(Expression<Func<T,bool>> filter=null);
+        List<T> GetAll(Expression<Func<T,bool>> filter=null);
         // filter=null --> filtre vermeyebiliriz
         // sistemde tek bir eleman getiren kod için Get işlemini oluştururuz.
         // Expressin ile filtre veririz.

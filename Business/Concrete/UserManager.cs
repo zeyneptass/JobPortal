@@ -47,11 +47,11 @@ namespace Business.Concrete
             {
                 return new ErrorDataResult<List<User>>(Messages.MaintenanceTime);
             }
-            return new SuccessDataResult<List<User>>(_userDal.GelAll(),Messages.UsersListed);
+            return new SuccessDataResult<List<User>>(_userDal.GetAll(),Messages.UsersListed);
         }
         public IDataResult<List<User>> GetAllByRole(int roleId)
         {
-            return new SuccessDataResult<List<User>>(_userDal.GelAll(u => u.RoleId == roleId));
+            return new SuccessDataResult<List<User>>(_userDal.GetAll(u => u.RoleId == roleId));
         }
         public IDataResult<User> GetById(int userId)
         {
