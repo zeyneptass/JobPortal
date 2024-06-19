@@ -14,8 +14,8 @@ builder.Services.AddSwaggerGen();
 
 // IoC 
 // Ýçinde data tutmuyorsak singleton kullanýrýz.
-builder.Services.AddSingleton<IUserService,UserManager>();
-builder.Services.AddSingleton<IUserDal, EfUserDal>();
+builder.Services.AddScoped<IUserService,UserManager>();
+builder.Services.AddScoped<IUserDal, EfUserDal>();
 
 builder.Services.AddSingleton<IRoleService, RoleManager>();
 builder.Services.AddSingleton<IRoleDal,EfRoleDal>();

@@ -32,6 +32,13 @@ namespace Business.Concrete
                 return new SuccessResult(Messages.UserAdded);
             }
         }
+
+        public IResult Delete(User user)
+        {
+            _userDal.Delete(user);
+            return new SuccessResult(Messages.UserDelete);
+        }
+
         public IDataResult<List<User>> GetAll()
         {
             // Bir methodda sadece bir değer dödürülür burada List değer döndürmüş
@@ -48,11 +55,17 @@ namespace Business.Concrete
         }
         public IDataResult<User> GetById(int userId)
         {
-            return new SuccessDataResult<User>(_userDal.Get(p => p.UserId == userId));
+            return new SuccessDataResult<User>(_userDal.Get(u => u.UserId == userId));
         }
         public IDataResult<List<UserDetailDto>> GetUserDetails()
         {
             return new SuccessDataResult<List<UserDetailDto>>(_userDal.GetUserDetails());
+        }
+
+        public IResult Update(User user)
+        {
+            _userDal.Update(user);
+            return new SuccessResult(Messages.UserUpdate);
         }
     }
 }

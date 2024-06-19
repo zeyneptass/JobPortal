@@ -13,5 +13,9 @@ namespace Business.Constants
         public static string UserRoleNonselected = "Please, choose a role in the system to progress.";
         public static string UsersListed = "Users are listed.";
         public static string MaintenanceTime = "The website is under maintenance.";
+        public static string UserDelte = "User is deleted.";
+        public static string UserUpdate = "User is updated";
+
+        public static string UserDelete { get; internal set; }
     }
 }
