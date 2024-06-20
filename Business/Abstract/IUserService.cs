@@ -14,6 +14,7 @@ namespace Business.Abstract
         IDataResult<List<User>> GetAll();
         IDataResult<List<User>> GetAllByRole(int roleId);
         IDataResult<List<UserDetailDto>> GetUserDetails();
+        IDataResult<User> Login(string email, string password);
         IResult Add(User user);
         IDataResult<User> GetById(int userId);
         IResult Update(User user);

@@ -3,68 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CE24BCA0-BA25-41BB-B1E7-C6C9C647F1DF}|Core\\Core.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\csharp\\jobportal\\core\\crosscuttingconcerns\\validation\\fluentvalidation\\validationtool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE24BCA0-BA25-41BB-B1E7-C6C9C647F1DF}|Core\\Core.csproj|solutionrelative:core\\crosscuttingconcerns\\validation\\fluentvalidation\\validationtool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F4A387E-8321-489D-94F0-16DFC6158669}|Business\\Business.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\csharp\\jobportal\\business\\dependencyresolvers\\autofac\\autofacbusinessmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F4A387E-8321-489D-94F0-16DFC6158669}|Business\\Business.csproj|solutionrelative:business\\dependencyresolvers\\autofac\\autofacbusinessmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1FCB362-80CC-4C7E-883C-EBD33A1E5274}|WebAPI\\WebAPI.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\csharp\\jobportal\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1FCB362-80CC-4C7E-883C-EBD33A1E5274}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE24BCA0-BA25-41BB-B1E7-C6C9C647F1DF}|Core\\Core.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\csharp\\jobportal\\core\\aspects\\autofac\\validation\\validationaspect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE24BCA0-BA25-41BB-B1E7-C6C9C647F1DF}|Core\\Core.csproj|solutionrelative:core\\aspects\\autofac\\validation\\validationaspect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0F4A387E-8321-489D-94F0-16DFC6158669}|Business\\Business.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\csharp\\jobportal\\business\\concrete\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F4A387E-8321-489D-94F0-16DFC6158669}|Business\\Business.csproj|solutionrelative:business\\concrete\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F4A387E-8321-489D-94F0-16DFC6158669}|Business\\Business.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\csharp\\jobportal\\business\\validationrules\\fluentvalidation\\uservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F4A387E-8321-489D-94F0-16DFC6158669}|Business\\Business.csproj|solutionrelative:business\\validationrules\\fluentvalidation\\uservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FFB813C5-01D4-4321-BA03-871C5740EE7D}|Entities\\Entities.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\csharp\\jobportal\\entities\\concrete\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FFB813C5-01D4-4321-BA03-871C5740EE7D}|Entities\\Entities.csproj|solutionrelative:entities\\concrete\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE24BCA0-BA25-41BB-B1E7-C6C9C647F1DF}|Core\\Core.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\csharp\\jobportal\\core\\entities\\ientitiy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE24BCA0-BA25-41BB-B1E7-C6C9C647F1DF}|Core\\Core.csproj|solutionrelative:core\\entities\\ientitiy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1FCB362-80CC-4C7E-883C-EBD33A1E5274}|WebAPI\\WebAPI.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\csharp\\jobportal\\webapi\\controllers\\jobtypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1FCB362-80CC-4C7E-883C-EBD33A1E5274}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\jobtypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98AF16FB-8531-415A-9DA7-423E6E8A40E4}|ConsoleUI\\ConsoleUI.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\csharp\\jobportal\\consoleui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98AF16FB-8531-415A-9DA7-423E6E8A40E4}|ConsoleUI\\ConsoleUI.csproj|solutionrelative:consoleui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F4A387E-8321-489D-94F0-16DFC6158669}|Business\\Business.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\csharp\\jobportal\\business\\concrete\\jobtypemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F4A387E-8321-489D-94F0-16DFC6158669}|Business\\Business.csproj|solutionrelative:business\\concrete\\jobtypemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F4A387E-8321-489D-94F0-16DFC6158669}|Business\\Business.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\csharp\\jobportal\\business\\constants\\messages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F4A387E-8321-489D-94F0-16DFC6158669}|Business\\Business.csproj|solutionrelative:business\\constants\\messages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE24BCA0-BA25-41BB-B1E7-C6C9C647F1DF}|Core\\Core.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\csharp\\jobportal\\core\\dataaccess\\entityframework\\efentityrepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE24BCA0-BA25-41BB-B1E7-C6C9C647F1DF}|Core\\Core.csproj|solutionrelative:core\\dataaccess\\entityframework\\efentityrepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F4A387E-8321-489D-94F0-16DFC6158669}|Business\\Business.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\csharp\\jobportal\\business\\validationrules\\fluentvalidation\\uservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F4A387E-8321-489D-94F0-16DFC6158669}|Business\\Business.csproj|solutionrelative:business\\validationrules\\fluentvalidation\\uservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE24BCA0-BA25-41BB-B1E7-C6C9C647F1DF}|Core\\Core.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\csharp\\jobportal\\core\\dataaccess\\ientityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE24BCA0-BA25-41BB-B1E7-C6C9C647F1DF}|Core\\Core.csproj|solutionrelative:core\\dataaccess\\ientityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CE24BCA0-BA25-41BB-B1E7-C6C9C647F1DF}|Core\\Core.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\csharp\\jobportal\\core\\utilities\\business\\businessrules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE24BCA0-BA25-41BB-B1E7-C6C9C647F1DF}|Core\\Core.csproj|solutionrelative:core\\utilities\\business\\businessrules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F4A387E-8321-489D-94F0-16DFC6158669}|Business\\Business.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\csharp\\jobportal\\business\\abstract\\ijobtypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F4A387E-8321-489D-94F0-16DFC6158669}|Business\\Business.csproj|solutionrelative:business\\abstract\\ijobtypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F4A387E-8321-489D-94F0-16DFC6158669}|Business\\Business.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\csharp\\jobportal\\business\\abstract\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F4A387E-8321-489D-94F0-16DFC6158669}|Business\\Business.csproj|solutionrelative:business\\abstract\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FFB813C5-01D4-4321-BA03-871C5740EE7D}|Entities\\Entities.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\csharp\\jobportal\\entities\\concrete\\jobtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FFB813C5-01D4-4321-BA03-871C5740EE7D}|Entities\\Entities.csproj|solutionrelative:entities\\concrete\\jobtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FFB813C5-01D4-4321-BA03-871C5740EE7D}|Entities\\Entities.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\csharp\\jobportal\\entities\\concrete\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFB813C5-01D4-4321-BA03-871C5740EE7D}|Entities\\Entities.csproj|solutionrelative:entities\\concrete\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,214 +34,85 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IEntitiy.cs",
-              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\Core\\Entities\\IEntitiy.cs",
-              "RelativeDocumentMoniker": "Core\\Entities\\IEntitiy.cs",
-              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\Core\\Entities\\IEntitiy.cs",
-              "RelativeToolTip": "Core\\Entities\\IEntitiy.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T15:26:56.56Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ValidationTool.cs",
-              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\Core\\CrossCuttingConcerns\\Validation\\FluentValidation\\ValidationTool.cs",
-              "RelativeDocumentMoniker": "Core\\CrossCuttingConcerns\\Validation\\FluentValidation\\ValidationTool.cs",
-              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\Core\\CrossCuttingConcerns\\Validation\\FluentValidation\\ValidationTool.cs",
-              "RelativeToolTip": "Core\\CrossCuttingConcerns\\Validation\\FluentValidation\\ValidationTool.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAWwBEAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T15:21:53.74Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserValidator.cs",
-              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\Business\\ValidationRules\\FluentValidation\\UserValidator.cs",
-              "RelativeDocumentMoniker": "Business\\ValidationRules\\FluentValidation\\UserValidator.cs",
-              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\Business\\ValidationRules\\FluentValidation\\UserValidator.cs",
-              "RelativeToolTip": "Business\\ValidationRules\\FluentValidation\\UserValidator.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAIBJwCAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T12:51:26.47Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ValidationAspect.cs",
-              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\Core\\Aspects\\Autofac\\Validation\\ValidationAspect.cs",
-              "RelativeDocumentMoniker": "Core\\Aspects\\Autofac\\Validation\\ValidationAspect.cs",
-              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\Core\\Aspects\\Autofac\\Validation\\ValidationAspect.cs",
-              "RelativeToolTip": "Core\\Aspects\\Autofac\\Validation\\ValidationAspect.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAAA0AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T16:21:40.254Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\WebAPI\\Program.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\WebAPI\\Program.cs",
-              "RelativeToolTip": "WebAPI\\Program.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAAABwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T11:44:16.752Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AutofacBusinessModule.cs",
-              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\Business\\DependencyResolvers\\Autofac\\AutofacBusinessModule.cs",
-              "RelativeDocumentMoniker": "Business\\DependencyResolvers\\Autofac\\AutofacBusinessModule.cs",
-              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\Business\\DependencyResolvers\\Autofac\\AutofacBusinessModule.cs",
-              "RelativeToolTip": "Business\\DependencyResolvers\\Autofac\\AutofacBusinessModule.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAAACcAAABZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T12:11:17.026Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserManager.cs",
-              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\Business\\Concrete\\UserManager.cs",
-              "RelativeDocumentMoniker": "Business\\Concrete\\UserManager.cs",
-              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\Business\\Concrete\\UserManager.cs",
-              "RelativeToolTip": "Business\\Concrete\\UserManager.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAawCAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T15:33:48.254Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\Entities\\Concrete\\User.cs",
-              "RelativeDocumentMoniker": "Entities\\Concrete\\User.cs",
-              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\Entities\\Concrete\\User.cs",
-              "RelativeToolTip": "Entities\\Concrete\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T15:27:08.543Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "JobTypesController.cs",
-              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\WebAPI\\Controllers\\JobTypesController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\JobTypesController.cs",
-              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\WebAPI\\Controllers\\JobTypesController.cs",
-              "RelativeToolTip": "WebAPI\\Controllers\\JobTypesController.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAuwC4AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T11:33:39.494Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\ConsoleUI\\Program.cs",
-              "RelativeDocumentMoniker": "ConsoleUI\\Program.cs",
-              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\ConsoleUI\\Program.cs",
-              "RelativeToolTip": "ConsoleUI\\Program.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAABlwB0AAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T11:21:56.161Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "EfEntityRepositoryBase.cs",
-              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\Core\\DataAccess\\EntityFramework\\EfEntityRepositoryBase.cs",
-              "RelativeDocumentMoniker": "Core\\DataAccess\\EntityFramework\\EfEntityRepositoryBase.cs",
-              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\Core\\DataAccess\\EntityFramework\\EfEntityRepositoryBase.cs",
-              "RelativeToolTip": "Core\\DataAccess\\EntityFramework\\EfEntityRepositoryBase.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAABlwDQAAABSAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T11:19:33.127Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "IEntityRepository.cs",
-              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\Core\\DataAccess\\IEntityRepository.cs",
-              "RelativeDocumentMoniker": "Core\\DataAccess\\IEntityRepository.cs",
-              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\Core\\DataAccess\\IEntityRepository.cs",
-              "RelativeToolTip": "Core\\DataAccess\\IEntityRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T11:19:00.117Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "Messages.cs",
               "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\Business\\Constants\\Messages.cs",
               "RelativeDocumentMoniker": "Business\\Constants\\Messages.cs",
               "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\Business\\Constants\\Messages.cs",
               "RelativeToolTip": "Business\\Constants\\Messages.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABFAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAAB0AAABSAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T10:43:56.145Z",
+              "WhenOpened": "2024-06-20T09:34:06.465Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "JobType.cs",
-              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\Entities\\Concrete\\JobType.cs",
-              "RelativeDocumentMoniker": "Entities\\Concrete\\JobType.cs",
-              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\Entities\\Concrete\\JobType.cs",
-              "RelativeToolTip": "Entities\\Concrete\\JobType.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAiAAAA",
+              "DocumentIndex": 4,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\Business\\Abstract\\IUserService.cs",
+              "RelativeDocumentMoniker": "Business\\Abstract\\IUserService.cs",
+              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\Business\\Abstract\\IUserService.cs",
+              "RelativeToolTip": "Business\\Abstract\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T10:36:36.752Z",
+              "WhenOpened": "2024-06-20T10:07:48.956Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "JobTypeManager.cs",
-              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\Business\\Concrete\\JobTypeManager.cs",
-              "RelativeDocumentMoniker": "Business\\Concrete\\JobTypeManager.cs",
-              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\Business\\Concrete\\JobTypeManager.cs",
-              "RelativeToolTip": "Business\\Concrete\\JobTypeManager.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAuwCUAAABhAAAA",
+              "DocumentIndex": 2,
+              "Title": "UserValidator.cs",
+              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\Business\\ValidationRules\\FluentValidation\\UserValidator.cs",
+              "RelativeDocumentMoniker": "Business\\ValidationRules\\FluentValidation\\UserValidator.cs",
+              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\Business\\ValidationRules\\FluentValidation\\UserValidator.cs",
+              "RelativeToolTip": "Business\\ValidationRules\\FluentValidation\\UserValidator.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAAB4AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T10:36:47.578Z",
+              "WhenOpened": "2024-06-20T09:30:10.792Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IJobTypeService.cs",
-              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\Business\\Abstract\\IJobTypeService.cs",
-              "RelativeDocumentMoniker": "Business\\Abstract\\IJobTypeService.cs",
-              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\Business\\Abstract\\IJobTypeService.cs",
-              "RelativeToolTip": "Business\\Abstract\\IJobTypeService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA9AAAA",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\Entities\\Concrete\\User.cs",
+              "RelativeDocumentMoniker": "Entities\\Concrete\\User.cs",
+              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\Entities\\Concrete\\User.cs",
+              "RelativeToolTip": "Entities\\Concrete\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T10:36:46.044Z",
+              "WhenOpened": "2024-06-20T09:27:50.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserManager.cs",
+              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\Business\\Concrete\\UserManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\UserManager.cs",
+              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\Business\\Concrete\\UserManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\UserManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T09:27:33.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BusinessRules.cs",
+              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\Core\\Utilities\\Business\\BusinessRules.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\Business\\BusinessRules.cs",
+              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\csharp\\JobPortal\\Core\\Utilities\\Business\\BusinessRules.cs",
+              "RelativeToolTip": "Core\\Utilities\\Business\\BusinessRules.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T21:44:08.439Z",
               "EditorCaption": ""
             }
           ]

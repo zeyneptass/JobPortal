@@ -16,17 +16,17 @@ namespace Business.ValidationRules.FluentValidation
             RuleFor(u => u.Password).NotEmpty();
             RuleFor(u => u.RoleId).NotEmpty();
             RuleFor(u => u.Password).MinimumLength(8);
-            RuleFor(u => u.Password).Must(PasswordExtraRules).WithMessage("Please, repeat again.");
+           // RuleFor(u => u.Password).Must(PasswordExtraRules).WithMessage("Please, repeat again.");
         }
 
-        private bool PasswordExtraRules(string arg)
-        {
-            bool hasUpperChar = arg.Any(char.IsUpper);
-            bool hasLowerChar = arg.Any(char.IsLower);
-            bool hasDigit = arg.Any(char.IsDigit);
-            bool hasSpecialChar = arg.Any(ch => !char.IsLetterOrDigit(ch));
+        //private bool PasswordExtraRules(string arg)
+        //{
+        //    bool hasUpperChar = arg.Any(char.IsUpper);
+        //    bool hasLowerChar = arg.Any(char.IsLower);
+        //    bool hasDigit = arg.Any(char.IsDigit);
+        //    bool hasSpecialChar = arg.Any(ch => !char.IsLetterOrDigit(ch));
 
-            return hasUpperChar && hasLowerChar && hasDigit && hasSpecialChar;
-        }
+        //    return hasUpperChar && hasLowerChar && hasDigit && hasSpecialChar;
+        //}
     }
 }
