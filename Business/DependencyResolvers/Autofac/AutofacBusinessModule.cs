@@ -4,6 +4,7 @@ using Business.Abstract;
 using Business.Concrete;
 using Castle.DynamicProxy;
 using Core.Utilities.Interceptors;
+using Core.Utilities.Security.JWT;
 using DataAccess.Abstract;
 using DataAccess.Concrete.EntityFramework;
 using Entities.Concrete;
@@ -19,11 +20,6 @@ namespace Business.DependencyResolvers.Autofac
     {
         protected override void Load(ContainerBuilder builder)
         {
-            builder.RegisterType<UserManager>().As<IUserService>().SingleInstance();
-            builder.RegisterType<EfUserDal>().As<IUserDal>().SingleInstance();
-
-            builder.RegisterType<RoleManager>().As<IRoleService>().SingleInstance();
-            builder.RegisterType<EfRoleDal>().As<IRoleDal>().SingleInstance();
 
             builder.RegisterType<JobTypeManager>().As<IJobTypeService>().SingleInstance();
             builder.RegisterType<EfJobTypeDal>().As<IJobTypeDal>().SingleInstance();
@@ -42,6 +38,13 @@ namespace Business.DependencyResolvers.Autofac
 
             builder.RegisterType<ApplicationManager>().As<IApplicationService>().SingleInstance();
             builder.RegisterType<EfApplicationDal>().As<IApplicationDal>().SingleInstance();
+
+
+            builder.RegisterType<UserManager>().As<IUserService>();
+            builder.RegisterType<EfUserDal>().As<IUserDal>();
+
+            builder.RegisterType<AuthManager>().As<IAuthService>();
+            builder.RegisterType<JwtHelper>().As<ITokenHelper>();
 
             var assembly = System.Reflection.Assembly.GetExecutingAssembly();
 

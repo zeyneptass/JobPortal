@@ -1,0 +1,23 @@
+﻿using Core.Entities;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Entities.Concrete
+{
+    public class User: IEntitiy
+    {
+        public int UserId { get; set; }
+        public string Email { get; set; }
+        //public string Role { get; set; } // Employer veya JobSeeker
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public byte[] PasswordSalt { get; set; }
+        public byte[] PasswordHash { get; set; }
+        public DateTime CreatedAt { get; set; }
+        public bool Status { get; set; }
+    }
+
+}

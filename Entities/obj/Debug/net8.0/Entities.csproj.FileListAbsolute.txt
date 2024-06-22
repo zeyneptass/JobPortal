@@ -8,9 +8,9 @@ C:\Users\zeyne\OneDrive\Masaüstü\csharp\JobPortal\Entities\obj\Debug\net8.0\En
 C:\Users\zeyne\OneDrive\Masaüstü\csharp\JobPortal\Entities\obj\Debug\net8.0\Entities.AssemblyInfoInputs.cache
 C:\Users\zeyne\OneDrive\Masaüstü\csharp\JobPortal\Entities\obj\Debug\net8.0\Entities.AssemblyInfo.cs
 C:\Users\zeyne\OneDrive\Masaüstü\csharp\JobPortal\Entities\obj\Debug\net8.0\Entities.csproj.CoreCompileInputs.cache
+C:\Users\zeyne\OneDrive\Masaüstü\csharp\JobPortal\Entities\obj\Debug\net8.0\Entities.sourcelink.json
 C:\Users\zeyne\OneDrive\Masaüstü\csharp\JobPortal\Entities\obj\Debug\net8.0\Entities.csproj.Up2Date
 C:\Users\zeyne\OneDrive\Masaüstü\csharp\JobPortal\Entities\obj\Debug\net8.0\Entities.dll
 C:\Users\zeyne\OneDrive\Masaüstü\csharp\JobPortal\Entities\obj\Debug\net8.0\refint\Entities.dll
 C:\Users\zeyne\OneDrive\Masaüstü\csharp\JobPortal\Entities\obj\Debug\net8.0\Entities.pdb
 C:\Users\zeyne\OneDrive\Masaüstü\csharp\JobPortal\Entities\obj\Debug\net8.0\ref\Entities.dll
-C:\Users\zeyne\OneDrive\Masaüstü\csharp\JobPortal\Entities\obj\Debug\net8.0\Entities.sourcelink.json

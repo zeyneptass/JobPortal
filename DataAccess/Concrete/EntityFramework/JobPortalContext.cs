@@ -1,4 +1,5 @@
-﻿using Entities.Concrete;
+﻿using Core.Entities.Concrete;
+using Entities.Concrete;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -14,15 +15,17 @@ namespace DataAccess.Concrete.EntityFramework
         {
             optionsBuilder.UseSqlServer(@"Server=ZEYNEP\SQLEXPRESS01;Database=DBJobPortal;Integrated Security=True;TrustServerCertificate=True;");
         }
-        public DbSet<User> Users { get; set; }
         public DbSet<JobSeeker> JobSeekers { get; set; }
         public DbSet<JobListing> JobListings { get; set; }
         public DbSet<Employer> Employers { get; set; }
-        public DbSet<Role> Roles { get; set; }
         public DbSet<Application> Applications { get; set; }
         public DbSet<JobType> JobTypes { get; set; }
         public DbSet<ApplicationStatus> ApplicationStatuses { get; set; }
 
+
+        public DbSet<User> Users { get; set; }
+        public DbSet<OperationClaim> OperationClaims { get; set; }
+        public DbSet<UserOperationClaim> UserOperationClaims { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<ApplicationStatus>().HasKey(a => a.StatusId);

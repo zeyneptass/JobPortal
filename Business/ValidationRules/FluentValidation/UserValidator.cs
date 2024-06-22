@@ -13,9 +13,9 @@ namespace Business.ValidationRules.FluentValidation
         public UserValidator()
         {
             RuleFor(u => u.Email).NotEmpty();
-            RuleFor(u => u.Password).NotEmpty();
-            RuleFor(u => u.RoleId).NotEmpty();
-            RuleFor(u => u.Password).MinimumLength(8);
+         //   RuleFor(u => u.Password).NotEmpty();
+         //   RuleFor(u => u.RoleId).NotEmpty();
+          //  RuleFor(u => u.Password).MinimumLength(8);
            // RuleFor(u => u.Password).Must(PasswordExtraRules).WithMessage("Please, repeat again.");
         }
 
